@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#home-section{
+	padding: 20px 0;
+	line-height: 40px;
+}
+.biaoti{
+	text-align: center;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+nav ul li {
+	width: 33%;
+	padding: 30px 0;
+}
+a {
+	color: #fff;
+	text-decoration: none
+}
+
+/* 重置链接a标签样式*/
+ol, ul {
+	list-style: none;
+ }
+a:active,
+a:hover {
+	text-decoration: none
+}
+
+/* 重置链接a标签的鼠标滑动效果 */
+
+/* 取消a标签点击后的虚线框 */
+
+a {
+	outline: none;
+}
+
+a:active {
+	star: expression(this.onFocus=this.blur());
+}
